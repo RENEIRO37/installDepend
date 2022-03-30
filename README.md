@@ -1,0 +1,2 @@
+# installDepend
+Dependencias Bibliometrix
