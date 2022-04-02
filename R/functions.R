@@ -554,6 +554,7 @@ dependBibliometrix<-function(){
 
   dependOldInstall()
 
+  Print("¡¡¡La instalación de Biblimetrix y sus dependecias ha finalizado!!!")
 }
 
 
@@ -946,7 +947,7 @@ dependOldInstall <- function() {
   namesLibrary <- installed.packages()[,c(1)]
   diffNames<-setdiff(depInstalled,namesLibrary)
   diffUrl<-oldDependences[diffNames]
-  lapply(diffUrl,function(x){
+  temp<-lapply(diffUrl,function(x){
     install.packages(x, repos=NULL, type="source")
   })
 
