@@ -99,8 +99,8 @@ dependBibliometrix<-function(){
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/dplyr_1.0.8.zip"
   install.packages(packageurl, repos=NULL, type="source")
 
-  packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/DT_0.21.zip"
-  install.packages(packageurl, repos=NULL, type="source")
+  #packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/DT_0.21.zip"
+  #install.packages(packageurl, repos=NULL, type="source")
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/ellipse_0.4.2.zip"
   install.packages(packageurl, repos=NULL, type="source")
@@ -117,8 +117,8 @@ dependBibliometrix<-function(){
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/FactoMineR_2.4.zip"
   install.packages(packageurl, repos=NULL, type="source")
 
-  packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/fansi_1.0.2.zip"
-  install.packages(packageurl, repos=NULL, type="source")
+  #packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/fansi_1.0.2.zip"
+  #install.packages(packageurl, repos=NULL, type="source")
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/farver_2.1.0.zip"
   install.packages(packageurl, repos=NULL, type="source")
@@ -267,8 +267,8 @@ dependBibliometrix<-function(){
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/plotly_4.10.0.zip"
   install.packages(packageurl, repos=NULL, type="source")
 
-  packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/plyr_1.8.6.zip"
-  install.packages(packageurl, repos=NULL, type="source")
+  #packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/plyr_1.8.6.zip"
+  #install.packages(packageurl, repos=NULL, type="source")
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/polynom_1.4-0.zip"
   install.packages(packageurl, repos=NULL, type="source")
@@ -279,8 +279,8 @@ dependBibliometrix<-function(){
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/prettyunits_1.1.1.zip"
   install.packages(packageurl, repos=NULL, type="source")
 
-  packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/processx_3.5.2.zip"
-  install.packages(packageurl, repos=NULL, type="source")
+  #packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/processx_3.5.2.zip"
+  #install.packages(packageurl, repos=NULL, type="source")
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/progress_1.2.2.zip"
   install.packages(packageurl, repos=NULL, type="source")
@@ -318,8 +318,8 @@ dependBibliometrix<-function(){
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/readr_2.1.2.zip"
   install.packages(packageurl, repos=NULL, type="source")
 
-  packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/readxl_1.3.1.zip"
-  install.packages(packageurl, repos=NULL, type="source")
+  #packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/readxl_1.3.1.zip"
+  #install.packages(packageurl, repos=NULL, type="source")
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/rematch_1.0.1.zip"
   install.packages(packageurl, repos=NULL, type="source")
@@ -390,8 +390,8 @@ dependBibliometrix<-function(){
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/sys_3.4.zip"
   install.packages(packageurl, repos=NULL, type="source")
 
-  packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/testthat_3.1.2.zip"
-  install.packages(packageurl, repos=NULL, type="source")
+  #packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/testthat_3.1.2.zip"
+  #install.packages(packageurl, repos=NULL, type="source")
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/tibble_3.1.6.zip"
   install.packages(packageurl, repos=NULL, type="source")
@@ -405,14 +405,14 @@ dependBibliometrix<-function(){
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/tidytext_0.3.2.zip"
   install.packages(packageurl, repos=NULL, type="source")
 
-  packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/tinytex_0.37.zip"
-  install.packages(packageurl, repos=NULL, type="source")
+  #packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/tinytex_0.37.zip"
+  #install.packages(packageurl, repos=NULL, type="source")
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/tokenizers_0.2.1.zip"
   install.packages(packageurl, repos=NULL, type="source")
 
-  packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/tzdb_0.2.0.zip"
-  install.packages(packageurl, repos=NULL, type="source")
+  #packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/tzdb_0.2.0.zip"
+  #install.packages(packageurl, repos=NULL, type="source")
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/utf8_1.2.2.zip"
   install.packages(packageurl, repos=NULL, type="source")
@@ -551,6 +551,8 @@ dependBibliometrix<-function(){
 
   packageurl <- "https://cloud.r-project.org/bin/windows/contrib/4.1/rjson_0.2.21.zip"
   install.packages(packageurl, repos=NULL, type="source")
+
+  dependOldInstall()
 
 }
 
@@ -935,14 +937,13 @@ depInstalled <- c("abind",
                   "tosr")
 
 
-names(oldDependences)<-depInstalled
 
-
-namesLibrary <- installed.packages()[,c(1)]
 
 
 dependOldInstall <- function() {
 
+  names(oldDependences)<-depInstalled
+  namesLibrary <- installed.packages()[,c(1)]
   diffNames<-setdiff(depInstalled,namesLibrary)
   diffUrl<-oldDependences[diffNames]
   lapply(diffUrl,function(x){
